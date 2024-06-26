@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import backgroundImage from '../images/shlawp-background.png';
-import fortniteImage from '../images/fortnite-background.jpg'
+import fortniteImage from '../images/shlawp-img-fortnite.png'
+import tiktokImage from '../images/tiktok-logo.png'
 import Toolbar from './Toolbar';
 
 function Hero() {
   return (
-    <div className='bg-[url("./images/shlawp-background.png")] bg-cover h-svh w-full'>
+    <div className='bg-[url("./images/shlawp-background-og.png")] bg-cover h-full w-full'>
         <Toolbar/>
         <div className='pt-[200px]'>
             <div className='flex justify-center text-7xl'>
@@ -21,7 +21,12 @@ function Hero() {
                 Contact Us
             </button>
         </div>
-        
+        <div className="mt-8 flex justify-center mr-12">
+            <img
+            src="/shlawp-img-fortnite-2.png"
+            className='w-3/5 h-auto'
+        />
+        </div>    
     </div>
   );
 }

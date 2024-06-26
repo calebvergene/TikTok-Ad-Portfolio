@@ -23,8 +23,8 @@ const Toolbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full p-4 transition-colors duration-300 ${
-        isScrolled ? 'bg-gray-800' : 'bg-transparent'
+      className={`fixed top-0 left-0 w-full p-2 transition-colors duration-300 ${
+        isScrolled ? 'bg-white/10' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
