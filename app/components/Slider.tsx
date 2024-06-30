@@ -15,7 +15,7 @@ const SliderDesign2 = () => {
     const duplicatedSlides = [...slides, ...slides];
 
     return (
-        <div className="relative h-full overflow-hidden py-4 bg-black mx-auto">
+        <div className="relative h-full overflow-hidden py-2 bg-black mx-auto">
             <div className="absolute inset-0 z-20 before:absolute before:inset-0 before:bg-gradient-to-r before:from-black before:via-transparent before:to-transparent after:absolute after:inset-0 after:bg-gradient-to-l after:from-black after:via-transparent after:to-transparent"></div>
             <motion.div
                 className="flex"

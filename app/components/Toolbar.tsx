@@ -23,7 +23,7 @@ const Toolbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full p-2 transition-colors duration-300 ${
+      className={`fixed top-0 left-0 w-full p-2 transition-colors duration-300 z-30 ${
         isScrolled ? 'bg-black/35' : 'bg-transparent'
       }`}
     >
