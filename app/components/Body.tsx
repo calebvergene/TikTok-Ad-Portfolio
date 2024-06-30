@@ -13,10 +13,13 @@ function Body() {
               <img src="/shlawp-profile.png" className="object-cover w-5/6 h-auto rounded-lg" />
             </div>
             <div className="w-2/5 pt-3 text-white">
-              <h2 className="text-4xl font-semibold mt-8 text-white/70">
-                We're <span className="text-white font-semibold">Shlawp</span>,
+              <h2 className="text-l font-semibold text-white/70 mt-10">
+                Hey! We're
               </h2>
-              <h3 className="text-3xl font-medium pt-6 text-white/60">
+              <h2 className="text-4xl font-semibold mt-2 text-white/70">
+                <span className="text-white font-semibold">Shlawp</span>,
+              </h2>
+              <h3 className="text-2xl font-medium pt-4 text-white/60">
                 a <span className="text-white font-semibold">digital marketing</span> startup utilizing AI to create viral content.
               </h3>
             </div>
@@ -33,8 +36,17 @@ function Body() {
             </h3>
         </div>
         <StickyScrollRevealDemo/>
-        <div className='bg-[url("./images/shlawp-background-2.png")] bg-cover h-full w-full'>
-            
+        <div className="flex items-center justify-center pt-36 pb-20">
+          <div className="flex w-full max-w-6xl mx-auto rounded-lg">
+              <div className="w-3/5 flex items-center justify-center p-5">
+                <img src="/shlawp-profile.png" className="object-cover w-5/6 h-auto rounded-lg" />
+              </div>
+              <div className="w-2/5 pt-3 text-white">
+                <h2 className="text-l font-semibold text-white/70 mt-10">
+                  Hey! We're
+                </h2>
+              </div>
+            </div>
         </div>
     </div>
   );
