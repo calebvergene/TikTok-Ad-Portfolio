@@ -29,19 +29,17 @@ const Toolbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg flex-1 font-medium">
+        <a href="#">
         <img src="/shlawp-pfp.png" className='w-10 h-auto'/>
+        </a>
         </div>
-        <nav className="flex-1 flex justify-center">
-          <ul className="flex space-x-4 text-sm font-light">
-            <li className="text-white">Home</li>
-            <li className="text-white">About</li>
-            <li className="text-white">Contact</li>
-          </ul>
-        </nav>
+       
         <div className="flex-1 flex justify-end">
-            <button className='bg-gradient-to-r from-fuchsia-600 to-orange-400 px-3 py-2 rounded-lg text-sm'>
+        <a href="mailto:shlawpco@gmail.com">
+            <button className='bg-black/90 border px-3 py-2 rounded-lg text-sm text hover:text-white/80 transition duration-300'>
                 Contact Us
             </button>
+            </a>
         </div>
       </div>
     </div>
