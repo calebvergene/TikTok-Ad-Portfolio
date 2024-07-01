@@ -68,7 +68,7 @@ export const StickyScroll = ({
       ref={ref}
     >
       <div className="relative flex items-start px-4">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl hide-scrollbar">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
               <motion.h2
@@ -111,18 +111,3 @@ export const StickyScroll = ({
   );
 };
 
-const styles = `
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-`;
-
-// has an error somewhere
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = styles;
-document.head.appendChild(styleSheet);

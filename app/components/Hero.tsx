@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import fortniteImage from '../images/shlawp-img-fortnite.png'
 import tiktokImage from '../images/tiktok-logo.png'
 import Toolbar from './Toolbar';
+import { HoverBorderGradientDemo } from './MessageButton';
 
 function Hero() {
   return (
@@ -17,9 +18,7 @@ function Hero() {
             </div>
         </div>
         <div className='flex justify-center mt-8'>
-            <button className='bg-gradient-to-r from-purple-600 to-pink-400 px-4 py-3 rounded-lg'>
-                Contact Us
-            </button>
+            <HoverBorderGradientDemo/>
         </div>
         <div className="mt-8 flex justify-center mr-12">
             <img
