@@ -5,24 +5,23 @@ import Hero from "./components/Hero";
 import backgroundImage2 from './images/shlawp-background.png';
 import SliderDesign from "./components/Slider";
 import Body from "./components/Body";
-import Loading from './components/Loading'; // Import the loading component
+import Loading from './components/Loading';
 
 export default function Home() {
-  const [loading, setLoading] = useState(true); // Add loading state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading process and set loading to false after a delay
     const loadTimer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the delay as needed
+    }, 8000);
 
     return () => {
-      clearTimeout(loadTimer); // Clean up the timer
+      clearTimeout(loadTimer);
     };
   }, []);
 
   if (loading) {
-    return <Loading />; // Show loading screen while loading
+    return <Loading />;
   }
 
   return (
