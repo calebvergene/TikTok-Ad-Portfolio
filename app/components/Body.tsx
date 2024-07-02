@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../components/Accordion"
+import Image from 'next/image'
 
 const Body = () => {
   const boxRef = useRef(null);
@@ -55,7 +56,7 @@ const Body = () => {
               </div>
               <div className="w-full md:w-2/5 pt-3 text-white">
                 <h2 className="text-l font-semibold text-white/70 mt-10">
-                  Hey! We're
+                  Hey! We&apos;re
                 </h2>
                 <h2 className="text-4xl font-semibold mt-2 text-white/70">
                   <span className="text-white font-semibold">Shlawp</span>,
